@@ -1,12 +1,5 @@
-# ptlc-Notify
-Powiadomienia na serwer FiveM
+exports('sendNotify', function(data) SendNUIMessage({action = 'Notify', desc = data}) end)
 
-## Preview
-
-
-## Export
-```lua
 RegisterCommand('testNotify', function()
     exports['ptlc-notify']:sendNotify('Otworzyłeś panel Administracyjny')
 end)
-```
