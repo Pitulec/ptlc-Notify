@@ -8,7 +8,7 @@
 
 <img src="https://github.com/user-attachments/assets/9fc87776-f458-4134-8c6e-b4ad3f000b66">
 
-<h2>Example command for the test:</h2>
+<h2>Export + test command:</h2>
 
 ```lua
 RegisterCommand('testNotify', function()
