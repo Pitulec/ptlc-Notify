@@ -30,8 +30,7 @@
     justify-content: space-between;
     padding: 0.7vw;
     border-radius: 0.5vw;
-    background-color: rgba(11, 11, 11, 0.9);
-    backdrop-filter: blur(0.3vw);
+    background-color: rgba(11, 11, 11, 0.85);
     right: -20vw;
 }
 
