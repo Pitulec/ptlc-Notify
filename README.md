@@ -1,20 +1,15 @@
-<h1 align="center">ptlc-Notify</h1>
+<img width="650px" src="https://i.imgur.com/mhe8zVb"/>
 
-<p align="center">FiveM notifications</p>
+<h1>Usage / export</h1>
 
-<hr>
+`client.lua`
 
-<h2>Preview</h2>
-
-<img src="https://github.com/user-attachments/assets/9fc87776-f458-4134-8c6e-b4ad3f000b66">
-
-<h2>Export + test command:</h2>
+<img width="650px" src="https://imgur.com/d80utLN.png">
 
 ```lua
-RegisterCommand('testNotify', function()
-    exports['ptlc-notify']:sendNotify('Otworzyłeś panel Administracyjny')
-end)
+exports['ptlc-notify']:sendNotify('Command text')
 ```
 
+<h1>Preview</h1>
 
-
+<img src="https://i.imgur.com/NjUqXCD.png">
